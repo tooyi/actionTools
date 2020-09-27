@@ -1,10 +1,10 @@
 name: 百度贴吧签到
 
 on:
-  schedule:
-    - cron: '5 16,22 * * *'
+#   schedule:
+#    - cron: '5 16,22 * * *'
   watch:
-    types: started
+   types: started
 
 jobs:
   tieba_sign:
