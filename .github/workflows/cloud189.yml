@@ -116,7 +116,7 @@ jobs:
 
         echo "----------"
         echo "签到账号$(($i+1))"
-        r=`python3 cloud189/C189Checkin.py <<EOF
+        r=`python3 cloud189/checkin.py <<EOF
         ${user_list[$i]}
         ${pwd_list[$i]}
         EOF`
